@@ -1,0 +1,210 @@
+1647717916410	geckodriver	INFO	Listening on 127.0.0.1:60549
+1647717919479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilenaRpV3"
+1647717921079	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilenaRpV3\\search.json.mozlz4", (void 0)))
+1647717924036	Marionette	INFO	Listening on port 60559
+1647717924358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0X6L1ArbTjcuGmGQzhYpFT0TT59KhaLZu1BBL23Z5drFKUSOjZSE6kBRVj4M1WCrfEWIKMRxLFJBfWap1IA1hn4sdTRwJ950VqXoUyAg3PcNIPN87TBCLdHBINQWEdQaDulb675Tpm6ef2BK5nyg6LG2e, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647717970583	geckodriver	INFO	Listening on 127.0.0.1:60714
+1647717973622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofile0GHt7p"
+1647717974066	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofile0GHt7p\\search.json.mozlz4", (void 0)))
+1647717977267	Marionette	INFO	Listening on port 60731
+1647717977357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Mal44ZCixpehgwVr4hoUDW3jescedHSliuSPvE7y9GAsIPWdb2blHXipSN7O8j7LCc7H6bONj137ujZDmctP7zoOoKe6uqGBiUgK2ZlBjeG0NZqpahCLvQ4PE1zLIRnDiwSszuKR6rw1tcRGS6jrI8ME, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0L17lpxGF47QmQnidxRVRywL4PgnXnYTX9447VLC4qJHpKUpZu6PEBT6ajxvFgCNfkCSOKMvWg8rOV7GKpRsl59DsT7iFtks0cNvZrmhIyPPqCUdcXWTDlMPhdDp20YkUO3QuRG8P4hGwplCqCCR9nUzr, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647717989753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Q8LNj7lywaMewhXljXDw8jurv3Jtw3Do88QTHDgLjDkJnzZaQ1KjgsM1xUx4rZb4li1h5ucXOt7sz4TZKtlyeMwKUuuSPMY3O5muFLhwKTjR92HR36Xb0BCOtTNxr8Bnemdnua734BW3DMcAhRWQTrSh, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0vqktYsbfwuCsrJVwVSBoEGUslpn9bIvXADTEAsim1B2qI9ZM5CXtsarXOLP24IcjGuXw8ANGu1wrM6wm0wZ5SEFdGxzCsfGbOWESIGeoGJ3TPzQxdbB20A45GABulNi9XPF2ByiZMZXQ5ahSgz9gs5KU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0LOzWr8mGc2Rl7iKJs4CNUADzDCVwcdXnMTdMgtxfpP3bxucTP2tYqMviW1z9BUD2csDbz9RUBi1876haj0Q8zXEmWPWaMXvhBnY7DKSA9JwVQk4158qEddoP6kqEqDAURdkssSTuXCSNsMi2j1zH0Pf0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0XIhJ92nmbhundSZN816DvrD8D7eKpJjFj8dxRMMDKPRSZqhS5v4wequBMTrHJkwZlySeMv0go1KkDoYm993eTKKxFpLU5ZFfbQksocZPCCEgtBxIEk9bACG2TSwWfXgCGpW6Wlhgg2tCVvWcUaNjNGaQ, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718016059	Marionette	INFO	Stopped listening on port 60731
+JavaScript error: https://www.gamestop.com/consoles-hardware/playstation-5/consoles/products/playstation-5-digital-edition/229026.html, line 127: NS_ERROR_NOT_INITIALIZED: 
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647718264966	geckodriver	INFO	Listening on 127.0.0.1:61323
+1647718268059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileXERiSu"
+1647718268497	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileXERiSu\\search.json.mozlz4", (void 0)))
+1647718270905	Marionette	INFO	Listening on port 61335
+1647718271298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0CoPioMj4elXglZvjLuW110MpjsOIJKAvsf2oGyT2i27mV1Y9MANyFZJ4M6JCyHmtMVeUSuT45QssQQYMQXcTtOpeBRpDHZaGEIrVmf8WaXBG5SN0v2nkmZrBcGxE9gcXvogmytS6igb7lyDytUIBMAe9, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0FVMpBFhtss9HzpE5zrAeQlUQpHw1zabekqvGrmN7PCuSGsRgc6khGwxn6Tn9hth2iAKBuP5AcHa3CkUQKJMwCNqIOW61aKjicbZlwadKlCEJoXvlMZN2BDC92HKmCCVR13ADcT0i7oyRMoBz2eNLGGpi, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718283040	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0RrAlHpGQwYtTFaAn8sTJPPmNiJniX2aCZiiKecjLRm6gbBGDzYMcW21MeO6MyDm00lWoTmxlHXBHHKw4RjawROHrDmSEVuesaQldaXKBP0k8gL77PBtjVrLovcMTnVu4pU7oWrQZNn4SfNfZIR3Purs2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718657678	Marionette	INFO	Stopped listening on port 61335
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647718671854	geckodriver	INFO	Listening on 127.0.0.1:56141
+1647718674964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilegbNFYq"
+1647718675382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilegbNFYq\\search.json.mozlz4", (void 0)))
+1647718677716	Marionette	INFO	Listening on port 56149
+1647718678236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0GMeNN8YJG8jWO4ZDTVeA4H3xbJibI7DXjh7mqK1kVy8wo9f70IjMDShzcmw1snoi5b8Ux5ZFM257vP7CZZjyeu6k3Qm4eRS4yIU6GEDcDmC9YPxQb0ZYtgIObVY5K2O5bhF7xCCNWaWEl05Lt3UkQkml, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718686107	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Q6G7vCChsRanN9eAic7YfwEhXgK5TPdw4tpkqDKGBfyYr7j1Zd7lx6w0oXr3rMjy1DWRkoVInkmePYHlBamX0AvuG1AwBTIfNFLlAtvFc6d3SGhKy4ChJXTmfSXtFu9Nf564HoIKVnSt7siLWQup4hb2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718690663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0wXwcpC6giKSiBqHMYvjMfqYkmLbP4oXiS6yyBGGuexY1bk0DgRFl3sqXPkSBipPVucfDXgd6DjakIkM7zGXQ4vjZuyRF4tNRdFfX0eJ2s265s92AsShEQBIvuh2YmbfveDV3x1SXTCid4jsphPy1Z9TX, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647718913855	Marionette	INFO	Stopped listening on port 56149
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1647723511669	geckodriver	INFO	Listening on 127.0.0.1:65460
+1647723514749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilecAYobj"
+1647723515193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofilecAYobj\\search.json.mozlz4", (void 0)))
+1647723517732	Marionette	INFO	Listening on port 65470
+1647723517963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0PhFED8DFPYxSuoNDR2qt0P9iFmbWQko7EajCdpJNInifh6KOi6gc3O2HmESL5Uf28aNJ1WTYtknsS7zprvSXUDloq5MwpuIVojuZtuwzN5K0jzE0wRt1LdY8f2BmaxLkTRrnZvxEYMaUYCpdav46mVOx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Bgbjly50NVkwJIuBjNEVwA9SaGdJMNOOzgTRr9D26TX1soCL8VGITyLi9i307XvhcOmt6k8Ry1eoohnMIQCQ5UawZRkXNPHRupdXwFOmU0yRiibns11yThNhPRkbecsSeCZ4f3flK9s3rhuXuruRd3yP, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647723530750	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Nouu5AGvJoAD41rhQlrW2Mjb8KIDjmhs9SfcEXJ350uOJGIMrr7Ae7Ff5CyeqFCpWCiKw93rgTvKbUBpzVn9dNdCaCle6m4Ew2kBnqXxJk8xBDbvKSC0qyKXhhCWwfFWZ1vqJACKMitbK7NBj2Vtmz9V, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647723650448	Marionette	INFO	Stopped listening on port 65470
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3952, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1647724239709	geckodriver	INFO	Listening on 127.0.0.1:63397
+1647724242816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileIifkmY"
+1647724243199	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileIifkmY\\search.json.mozlz4", (void 0)))
+1647724245625	Marionette	INFO	Listening on port 63406
+1647724246017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0VVPxg3zpcRH08DrTPZXbnGhJmPkxOoURbNCyOuoKleqYZ2wOGSSoMox2qjaUVgTCyYL3Q8bg7rt2ftZHz59vGi4Qf3EL0klCty7W1RM6LA7YIAC69AB7WOUCa41CYQjIAiDjaPnhb7qFIVlQc3w5GtM2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0w47DKEjvBwz155uLjFzUnlewjNbE93nlOfw44pAPqWvY5h3Z7hwGWu2m3QZdbE6HFfCH0SklkDvHBaHhpllA94N1f9rFDvoQjBQrBxmKAeOCZGgdDyW4KlwCub4hYpxboZHCJkPp2grEe6s2KKNDBD60, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647724257393	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0PaIFKBYvhwQ3PaD3wawEdyGY0wO4HfS1PchI0MwASe2hgVTceN8QEm7yWCyAEdFbLCuKt0u8FXRDfXQ8KxpPGq4eN0LyiR69zKwyIDROqAlkzjjrG4crmd7kIaHLVQJ0yNKLbQiEOrOegumbzJeYj3MI, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647724414899	geckodriver	INFO	Listening on 127.0.0.1:61050
+1647724417963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--no-default-browser-check" "--disable-gpu" "--disable-extensions" "--disable-default-apps" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileebEEhi"
+1647724418327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileebEEhi\\search.json.mozlz4", (void 0)))
+1647724420830	Marionette	INFO	Listening on port 61058
+1647724421192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0LMfOUD1Odu27en65rsiD0j0Hu60kDyndOghgMxaDwGpXBXAnV204WKZ7YBe2bcMz23rKVL09GFSFQyKWIYUZ7MlgbVpB96CDkGJk8GVbDaIfdjbZB1Y6foJXFAEqggHpiarWZ3mnJbAsETnPObaFptvr, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0Srph3KlYgkmia5OPkbypedf3wz7DCaeLIRQVGidtcZJOzOgh4JNZae0eHak2VBxVoHuB6YwfS7EfsDcXCa2kGVFt7SwrFGKW8joKhJOa5c3C2huImB1tpYn0i9mnmnUMJngJAQsG9mfCbrNSuWFw2UVF, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: unreachable code after return statement
+JavaScript warning: https://www.gamestop.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?ak_bmsc_gme-3.4=0w7Yf77dxQLq49mZzNuaf0LQlGq5vKe8rN4N7WdSTl5W1UsRBtojUKQVFpirOPpu2nHALoPoBd1o5UhcUT3GbUi8zPjaYoBTvI8hx77RpRhHKXgn8QHt29Aj0MlOYhZkOwNYELVxBdmo8s8WTsEjxiHGs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gamestop.com/-PVOIB9dfWc04_4TLOjeGxcE/iVc1GzYNLaif/EGtHdV0efQs/RwcqB/HAcK1Q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647744297988	geckodriver	INFO	Listening on 127.0.0.1:59268
+1647744301078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileyRXNs8"
+1647744301666	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileyRXNs8\\search.json.mozlz4", (void 0)))
+1647744304346	Marionette	INFO	Listening on port 59276
+1647744304756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647744399156	Marionette	INFO	Stopped listening on port 59276
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647748770887	geckodriver	INFO	Listening on 127.0.0.1:51252
+1647748773985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileMXUQWs"
+1647748774586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\taj8zg\\AppData\\Local\\Temp\\rust_mozprofileMXUQWs\\search.json.mozlz4", (void 0)))
+1647748776850	Marionette	INFO	Listening on port 51260
+1647748777131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647748803599	Marionette	INFO	Stopped listening on port 51260
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
