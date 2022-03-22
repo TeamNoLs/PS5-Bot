@@ -24,11 +24,11 @@ from selenium.webdriver.common.keys import Keys
 GME_HOME_URL = 'https://www.gamestop.com/'
 GME_PRODUCT_URL = 'https://www.gamestop.com/consoles-hardware/playstation-5/consoles/products/playstation-5-digital-edition/229026.html'
 GME_PRODUCT_TEST_URL = 'https://www.gamestop.com/consoles-hardware/playstation-4/consoles/products/playstation-4-pro-and-cyberpunk-2077-system-bundle-gamestop-premium-refurbished/B134406E.html'
+WAIT_TIME = 7
 
 
 class SigmaBotGamestopPS5():
 
-    
 
     """ Constructor """
     def __init__(self, alphabot, configuration={}):

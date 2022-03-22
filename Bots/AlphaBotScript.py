@@ -13,6 +13,8 @@ class AlphaBot():
 
     IMPPLICIT_WAIT_TIME = 10 # driver will execute the next command or wait X amount of seconds
 
+
+
     """ Constructor """
     def __init__(self):
 
@@ -43,12 +45,16 @@ class AlphaBot():
     -------------------
     Congratulotory statement
     """
-    def gamestop_ps5(self, lightweight):
+    def gamestop_ps5(self, lock, lightweight=True):
+
+        lock.acquire()
         self.task_count = self.task_count + 1 # keep track of the number of tasks alphabot is running
         local_task_count = self.task_count # need to use locks around this to ensure accuracy        
+        lock.release()
+        print(f"Task {local_task_count} -- {'Sigma Gamestop-PS5'} -- Running")
 
         task = SigmaBotGamestopPS5.SigmaBotGamestopPS5(alphabot=self) # initialize bot
-        print(f"Task {local_task_count} -- {task.name} -- Running")
+
 
         config = task.configuration(lightweight=lightweight, stealth=self.stealth_mode) # set the driver configurations
 
@@ -56,12 +62,12 @@ class AlphaBot():
 
         complete = task.run() # run the crawling prcoedure, returns true if everything completes without a problem
 
-
+        lock.acquire()
         if complete:
             print(f"Task {local_task_count} -- {task.name} -- Complete")
         else:
             print(f" Something went wrong with {task.name}")
-
+        lock.release()
 
 
 

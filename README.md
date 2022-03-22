@@ -62,3 +62,9 @@ The first SigmaBot. The sigmaBot files are where the bulk of the code/functional
 This file holds the code for sending the user an email to notify them (of whatever they want). It connects to a remote server that (hosted online for free) that allows an email to be sent from a dummy email (I created one) to the user's email. 
 
 Note: The email most definitley will be sent to your spam folder the first time, so try to unmark it as spam when you first get it.
+
+
+## Troubleshooting
+I'm writing this section mostly for myself so I can log my progress and track any issues. 
+
+* After getting the parallel crawlers up and running, I'm having trouble with the shared resources when I display what task is running. I included locks, but were still having an issue. Minor issue that can be diagnosed later
