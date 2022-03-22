@@ -1,8 +1,4 @@
 """
-PURPOSE
--------------------
-A task for my alphabot. Create a sellenium webdriver object, goes to Gamestop website, and snags me a ps5. 
-
 Note: Stop using implicitly_wait, its a timewaster. It's best since this is such a dynamic use case, but in terms of speed, its not helping the odds of checking out fast enough (I think)
 
 """

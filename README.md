@@ -19,9 +19,10 @@ I start off creating an AlphBot. This can be thought of in a hierarchy where thi
 
 The AlphaBot has a two main responsibilities: it can call and run any and all SigmaBots (in paralllel if specified) and it executes the primary stealth procedure used to avoid detection. Additionally it serves as a very nice template for housing all of the SigmaBot run procedures. Using this format makes parallel processing much simpler as well as keeping track of notification system and stealth ops.
 
-The SigmaBot is the main character here. These are the actual web crawlers that boot up the wbsites and execute the crawl path. They utilize a number of different techniques but it really boils down to starting up the driver (with the specified configurations), finding/assigning each of the xpath/css objects specified (depends on the website, I know it shouldn't but css wasn't working at times), and completing the path.
+The SigmaBot is the main character here. These are the actual web crawlers that boot up the wbsites and execute the crawl path. They utilize a number of different techniques but it really boils down to starting up the driver (with the specified configurations), finding/assigning each of the xpath/css objects specified (depends on the website, I know it shouldn't but css wasn't working at times), and completing the path. 
 
-I use a run file that initilaizes the AlphaBot and calls all subsequent commands to work the bot.... I'll pick this back up tomorrow
+There is only one AlphaBot, but there can be an infinite number of SigmaBots. The run process starts by initializing the AlphaBot. This also starts up the notification bot (sends an email to the user when a ps5 is located). From there, a number of different configurations can be set that impact the SigmaBots' profile. Once these settings are in place, the SigmaBot (representing what specific task needs to be accomplished) is called as a method of the AlphaBot. This is where the user is able to enable the "parallel crawler" functionality which allows X number of bots to run in parallel on the local CPU's avaialable.
+
 
 ## Documentation
 Overviews on all the major folders/files
@@ -33,4 +34,31 @@ This folder contatins all of the scripts used to run the bot. Any additional bot
 This folder holds all of the required files to run the bots. Really just the webdriver files that and executables needed to access specific web browser. Any additional web browsers that want to be used should be added to this folder. I will add in a file the lists out all the dependencies/versions I'm using.
 
 ### AlphaBotScript - Bots/script
-Note: Move notification system call from sigmabots to AlphaBot. This will avoid overlapping calls from multiple bots (very unlikely but ya know). 
+Note: Move notification system call from sigmabots to AlphaBot. This will avoid overlapping calls from multiple bots (very unlikely but ya know).
+
+This file holds the AlphaBot class, the core class for running this project. There 3 core components to the AlphaBot class: the constructor intiates all attributes and notification system, each of the SigmaBots are run from a method in the AlphaBot class, and the the stealth operations are intialized and set up.
+
+1. I'm not going to run through every attribute of the constructor since its commented/named pretty well, but the major callout here is the instantiation of the email_notification_system() (notification bot). This accesses a custom built class that allows the AlphaBot to use a remote email server to send a message to the user's email notifying them that a ps5 has become available. 
+
+2. The next component are the SigmaBot methods. There's no real naming convention (maybe there should be?), but each of these methods contains the run procedure for each of the SigmaBots I've created. The logic is very similar for each SigmaBot: the class for the SigmaBot is intialized, the configurations are set, the driver is booted up, and then the crawl begins. Once the task is completed, it shuts down the driver.
+
+3. The final component is the set up for "stealth procedures". I've said stealth like 20 times already without explaining what's actually happening so here it is. I'm essentialy scraping a website (yep another web crawler) that has a bunch of free proxies that people can utilize to rotate theiir IP address so their identity is hidden (kinda) from outsiders. My function here scrapes the website for a list of proxies, filters them down to only the US based ones, and then passes them to each SigmaBot that is running. 
+
+Note: There are other "stealth procedures" I utilize through the behaviour of the bots (mimicing human type, wait times, etc.), but this is a major component. Other protocols like using a headless browser, a VPN, etc. have been used but I'm keeping this implementation simple for now. Later versions may include this depending on how beefy the systems I'm dealing with.
+
+### RunAlpha - Bots/script
+This is the run file for the project. Any specifc configurations for the bots can be set here. Run this file and make sure everything's in the right place and your good to go.
+
+### SigmaBotGamestopPS5 - Bots/script
+The first SigmaBot. The sigmaBot files are where the bulk of the code/functionality for these bots will live. There are essentially 3 components to each of these files: driver configuration, pathing, and additional helper methods.
+
+1. The driver configuration portion is where the setttings for the web driver are put in place before starting it. This controls important features that relate to what resources the web driver will have access to while running, the browser we choose to use, and applying the stealth attributes. Once these configurations are set, the driver is ready to be booted up.
+
+2. The pathing is the largest and most dynamic piece to this whole project. This is where the literal path taken to get from point A to point B is executed. Depending on the website, the path taken will differ in length and complexity (dealing with pop ups, filling out forms, avoding honeypot traps, avoiding detection, etc.)
+
+3. The helper methods are really here to assist in the pathing procedure. Some of the tasks in the pathing portion need to be handled in a more complicated way than expected. For example, filling out a form. I created a function that mimics human typing rather than just pasting in the letters. These helper methods allow consistent execution across multiple objects as well as saving me a ton of time.
+
+### email_notification_system - Bots/script
+This file holds the code for sending the user an email to notify them (of whatever they want). It connects to a remote server that (hosted online for free) that allows an email to be sent from a dummy email (I created one) to the user's email. 
+
+Note: The email most definitley will be sent to your spam folder the first time, so try to unmark it as spam when you first get it.
