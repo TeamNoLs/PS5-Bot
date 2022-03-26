@@ -38,7 +38,8 @@ Note: Move notification system call from sigmabots to AlphaBot. This will avoid 
 
 This file holds the AlphaBot class, the core class for running this project. There 3 core components to the AlphaBot class: the constructor intiates all attributes and notification system, each of the SigmaBots are run from a method in the AlphaBot class, and the the stealth operations are intialized and set up.
 
-1. I'm not going to run through every attribute of the constructor since its commented/named pretty well, but the major callout here is the instantiation of the email_notification_system() (notification bot). This accesses a custom built class that allows the AlphaBot to use a remote email server to send a message to the user's email notifying them that a ps5 has become available. 
+1. I'm not going to run through every attribute of the constructor since its commented/named pretty well, but the major callouts here are the instantiation of the email_notification_system() (notification bot) and reading in the Secrets file that holds all of the personal information (credit card info, shipping info, login credentials, etc.). The motification bot accesses a custom built class that allows the AlphaBot to use a remote email server to send a message to the user's email notifying them that a ps5 has become available. One thing to note about the secrets file is that only the template to the secrets file has been uploaded to the repo, so to be run the bot, the parts you want to use need to be filled out (and the secrets_template.json file needs to be renamed to secrets.json).
+
 
 2. The next component are the SigmaBot methods. There's no real naming convention (maybe there should be?), but each of these methods contains the run procedure for each of the SigmaBots I've created. The logic is very similar for each SigmaBot: the class for the SigmaBot is intialized, the configurations are set, the driver is booted up, and then the crawl begins. Once the task is completed, it shuts down the driver.
 
@@ -58,6 +59,9 @@ The first SigmaBot. The sigmaBot files are where the bulk of the code/functional
 
 3. The helper methods are really here to assist in the pathing procedure. Some of the tasks in the pathing portion need to be handled in a more complicated way than expected. For example, filling out a form. I created a function that mimics human typing rather than just pasting in the letters. These helper methods allow consistent execution across multiple objects as well as saving me a ton of time.
 
+### SigmaBotTargetPS5 - Bots/script
+Similar set up to SigmaBotGamestopPS5. Code is a bit older. Might revamp.
+
 ### email_notification_system - Bots/script
 This file holds the code for sending the user an email to notify them (of whatever they want). It connects to a remote server that (hosted online for free) that allows an email to be sent from a dummy email (I created one) to the user's email. 
 
@@ -68,3 +72,5 @@ Note: The email most definitley will be sent to your spam folder the first time,
 I'm writing this section mostly for myself so I can log my progress and track any issues. 
 
 * After getting the parallel crawlers up and running, I'm having trouble with the shared resources when I display what task is running. I included locks, but were still having an issue. Minor issue that can be diagnosed later
+
+* Need to test out Target bot stealth features. They had the toughest security measures in the past.

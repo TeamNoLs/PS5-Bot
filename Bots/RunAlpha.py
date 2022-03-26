@@ -14,20 +14,40 @@ if __name__ == '__main__':
     lightweight = True # limit reources the driver will utilize
     lock = mp.Lock() # used to keep shared resources in order
 
-    """ Run a single crawler"""
-    alpha.gamestop_ps5(lock=lock, lightweight=lightweight) # start gamestop ps5 crawler
+    # """ Run a single crawler"""
+    # alpha.gamestop_ps5(lock=lock, lightweight=lightweight) # start gamestop ps5 crawler
 
 
 
-    # """ Run multiple crawlers """
-    # n_bots = 2
-    # # n_bots = mp.cpu_count() - 1 # use all but 1 processor
-    # processes = []
-    # lock = mp.Lock()
-    # for i in range(n_bots):
-    #     p = mp.Process(target=alpha.gamestop_ps5, args=[lock,lightweight])
-    #     processes.append(p)
-    #     p.start()
+    """ Run multiple crawlers """
+    gme_ps5_bots = 2 # number of gamestop ps5 bots i want to run
+    target_ps5_bots = 2 # number of target ps5 bots i want to run
 
-    # for p in processes:
-    #     p.join()
+    crawlers = {
+        "Gamestop-PS5" : alpha.gamestop_ps5,
+        "Target-PS5" : alpha.target_ps5
+    }
+
+    n_crawlers = gme_ps5_bots + target_ps5_bots # total number of bots running in parallel
+
+    # check to make sure we have the resources to run all the bots
+    if n_crawlers >= mp.cpu_count():
+        print("Bruh...way too many bots")
+    else:
+
+        """ Create a process for each crawler """
+        processes = []
+        # add in desired number of gme ps5 bots
+        for i in range(gme_ps5_bots):
+            p = mp.Process(target=crawlers["Gamestop-PS5"], args=[lock,lightweight])
+            processes.append(p)
+            p.start()
+            
+        # add in desired number of target ps5 bots
+        for i in range(target_ps5_bots):
+            p = mp.Process(target=crawlers["Target-PS5"], args=[lock,lightweight])
+            processes.append(p)
+            p.start()
+
+        for p in processes:
+            p.join()

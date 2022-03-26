@@ -12,7 +12,7 @@ import AlphaBotScript
 
 import os
 import time
-from random import randint
+from random import randint,uniform
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -263,6 +263,118 @@ class SigmaBotGamestopPS5():
 
 
 
+    """ 
+    Easy way - Shortcut that goes straight to the prodcut. Not as secure and may get caught
+    """
+    def shortcut_to_product(self):
+        driver = self.driver
+        driver.get(GME_PRODUCT_URL)
+        time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME))
+
+
+
+
+
+    """
+    Fills out the payment portion of the form
+    Note - I'm not sure if I can get away with using a fake name on the CC so I'm just putting my real one. We'll see how it works
+    """        
+    def payment_form_fill(self):
+        driver = self.driver
+        cc_info = self.alpha.personal_info['CCInfo']
+        
+        # identifying each element
+        card_num_elem = driver.find_element_by_id('cardNumber')
+        expir_date_elem = driver.find_element_by_id('expirationMonthYear')
+        cvv_elem = driver.find_element_by_id('securityCode')
+        # first_name_elem = driver.find_element_by_id('billingFirstName')
+        # last_name_elem = driver.find_element_by_id('billingLastName')
+
+        payment_form_text_box = [card_num_elem, expir_date_elem, cvv_elem]
+        payment_form_text_box_values = [cc_info['c_num'], cc_info['c_expiration_date'], cc_info['c_cvv']]
+        payment_form_pairs = zip(payment_form_text_box, payment_form_text_box_values)
+
+        # access each element and pass it the appropriate values
+        for elem, value in payment_form_pairs:
+            elem.clear() # making sure the text boxes are empty
+            self.human_type_2(elem,value) # function that mimics human typing
+            # elem.send_keys(value)
+
+        driver.find_element_by_name('submit-payment').click()
+        time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME)) # may need to be longer 
+
+
+
+
+
+    """
+    Fills out the shipping portion of the form
+    
+    Note: Inputting the zip code alone will auto fill the city and state, so just skip those two and go straight to the email
+
+    Update: We're still having issues with the street address field, but I've found another issue that occurs whenever I try to click another element after completing the address field. 
+            The page slightly refreshes (?) and the email address element is selected... I'm gonna brute force this by essentially clicking on every element, waiting 5 seconds, and then clicking on 
+            the same element again. This will fix that issue, and hopefully it fixes the input issues into the address field.
+    """
+    def shipping_form_fill(self):
+        driver = self.driver
+        shipping_info = self.alpha.personal_info['ShippingInfo']
+
+        # identifying all the elements - OPTIMIZE BY USING find_element_by_id('blah') instead of xpath etc
+        first_name_elem = driver.find_element_by_id("shippingFirstName")
+        last_name_elem = driver.find_element_by_id("shippingLastName")
+        street_address_elem = driver.find_element_by_id("shippingAddressOne")
+        add_apt_num_elem = driver.find_element_by_id('address-two-link') # figure this one out later (look at the link I pasted in the notes for 9/3/21)
+        zip_code_elem = driver.find_element_by_id("shippingZipCode")
+        # city_elem = driver.find_element_by_id("shippingAddressCity")
+        # state_elem = Select(driver.find_element_by_id('shippingState')) # (to "click" value https://stackoverflow.com/questions/63167600/how-to-select-a-value-from-drop-down-menu-in-python-selenium) use state_elem.options to get a list of values. Look for a value that contains 'virginia' and select that index (or just look ahead of time and select that)
+        email_addr_elem = driver.find_element_by_id('shipping-email')
+        phone_num_elem = driver.find_element_by_id('shippingPhoneNumber')
+
+        shipping_form_text_box_elems = [first_name_elem,last_name_elem,zip_code_elem,email_addr_elem,] # i need to deal with the drop down separately
+        shipping_form_text_box_values = [shipping_info['first_name_shipping'], shipping_info['last_name_shipping'], shipping_info['zip_code_shipping'], shipping_info['email_shipping']]
+        ship_form_pairs = zip(shipping_form_text_box_elems,shipping_form_text_box_values) # matching the element to the value in tuples
+        
+        # accesses each element and passes in the appropriate value
+        for elem,value in ship_form_pairs:
+            elem.clear() # making sure the text boxes are empty
+            elem.click() # clicking on the element because of the issue listed above
+            time.sleep(5) # waiting 5 seconds because of the issue listed above 
+            self.human_type(elem, value) # function that mimics human typing
+            # elem.send_keys(value)
+            time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME)) # may need to be longer 
+
+
+        # TROUBLESOME FIELDS(state, apt number, address...phone number) - I need to do these ones manually at the end
+        
+        # STATE
+        # state_elem.select_by_value('Virginia') # super annoying that its a drop down
+
+        # PHONE NUMBER - is odd because it adds space-like chars to the input when your done, so my helper function thinks the input is incorrect compared to the OG. 
+        phone_num_elem.click()
+        time.sleep(5) # waiting 5 seconds because of the issue listed above 
+        phone_num_elem.send_keys(shipping_info["phone_number_shipping"])
+
+        # ADDRESS - keeps on acting up
+        street_address_elem.click()
+        street_address_elem.send_keys(shipping_info["street_addr_shipping"])
+
+        # APT NUMBER - manually inputting apt number since its a two step process
+        add_apt_num_elem.click()
+        time.sleep(5) # waiting 5 seconds because of the issue listed above 
+        driver.find_element_by_id('shippingAddressTwo').send_keys(shipping_info["apt_num_shipping"])
+        time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME)) # may need to be longer 
+
+        # UPDATE - apparently i don't even need to click the continue button, it'll just do that automatically :)
+        # click the "Save and Continue button"
+        driver.find_element_by_name('submit-shipping').click()
+        time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME)) # may need to be longer 
+        # driver.find_element_by_class_name('btn btn-primary xav-address-btn  mb-2').click() # this should click the first button on the page (It shouldn't matter which one is clicked though)
+        # time.sleep(randint(int(WAIT_TIME / 2), WAIT_TIME)) # may need to be longer 
+
+
+
+
 
     """ 
     Summary
@@ -279,6 +391,55 @@ class SigmaBotGamestopPS5():
     """
     def close_browser(self):
         print(f"Closing {self.name}")
+
+
+
+
+
+    """
+    Helper Function - mimics human typing patterns for text box inputs
+    Note: We're having an issue with the send_keys function, so we need to have a delay after sedning a single character. This is no longer humany_type, its boomer_type :(
+    I was 2 seconds away from turning this into a static function
+    Note: I added a wrapper to the function. To check if the correct text was inputted. 
+    """
+    def human_type(self,elem, text):
+        check = False
+        while(check == False):
+            elem.clear()
+            for char in text:
+                elem.send_keys(char)
+                time.sleep(uniform(1.0,1.1))
+            check = self.confirm_entry(elem, text)
+
+
+
+
+
+
+    """
+    Helper Function - replica of the function above except there's no check to confirm that what was typed is correct. 
+    Note: This fucntion is the result of poor organziation and me being lazy. I'll get rid of this once I clean the code up.
+    """
+    def human_type_2(self,elem, text):
+        elem.clear()
+        for char in text:
+            elem.send_keys(char)
+            time.sleep(uniform(1.0,1.1))
+
+
+
+
+
+
+    """
+    Helper function - Since I'm having inconsistent issues with the send_keys function, I need to check to make sure that it inputs exactly what I want before moving on. This 
+                      function is called after the human type function enters the last character and exits the for loop. I wrap that logic in a while loop and call this check.
+                      I extract the value that was just typed into the element, and check it against the text was supposed to be typed. A match will exit the loop, if not, we clear the input and try again.
+    """
+    def confirm_entry(self, elem, text):
+        text_box_val = elem.get_attribute('value')
+        return text_box_val == text
+
 
 
 
@@ -301,9 +462,9 @@ class SigmaBotGamestopPS5():
     def run(self):
         try:
             self.navigate_to_product()
-            # self.is_product_in_stock()
-            # self.path_from_product_page()
-            # self.close_browser()
+            self.is_product_in_stock()
+            self.path_from_product_page()
+            self.close_browser()
             return True
         except InvalidSessionIdException:
             # write something to the log

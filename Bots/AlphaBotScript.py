@@ -1,9 +1,11 @@
 
+from Bots.SigmaBotTargetPS5 import SigmaBotTargetPS5
 import SigmaBotGamestopPS5
 import email_notification_system
 
 import os
 from random import randint
+import json
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -20,6 +22,12 @@ class AlphaBot():
 
         print("--- AlphaBot Running ---")
         self.task_count = 0
+
+        print("--- Loading Secrets File ---")
+        with open("../secrets.json") as json_data_file:
+            data = json.load(json_data_file)
+        self.personal_info = data
+        
 
         print("--- NotificationBot Running ---")
         self.notification_bot = email_notification_system.email_bot()
@@ -38,8 +46,8 @@ class AlphaBot():
 
     Inputs
     -------------------
-    config_params <dictionary> :: {"specification": value}, indicates which specifications need to be set as well as gives the vale
-                                  for that specification.
+    lock <Lock> :: multiprocessing lock object that "locks" resources so that only a single process can acess/mutate them
+    lightweight <bool> :: indicator for if the crawler should use the "lightweight" settings (recommended)
 
     Outputs
     -------------------
@@ -68,6 +76,49 @@ class AlphaBot():
         else:
             print(f" Something went wrong with {task.name}")
         lock.release()
+
+
+
+
+
+    """ 
+    Summary
+    -------------------
+    Runs a bot to get a ps5 from target.
+
+    Inputs
+    -------------------
+    lock <Lock> :: multiprocessing lock object that "locks" resources so that only a single process can acess/mutate them
+    lightweight <bool> :: indicator for if the crawler should use the "lightweight" settings (recommended)
+
+    Outputs
+    -------------------
+    Congratulotory statement
+    """
+    def target_ps5(self, lock, lightweight=True):
+
+        lock.acquire()
+        self.task_count = self.task_count + 1 # keep track of the number of tasks alphabot is running
+        local_task_count = self.task_count # need to use locks around this to ensure accuracy        
+        lock.release()
+        print(f"Task {local_task_count} -- {'Sigma Target-PS5'} -- Running")
+
+        task = SigmaBotTargetPS5.SigmaBotTargetPS5(alphabot=self) # initialize bot
+
+
+        config = task.configuration(lightweight=lightweight, stealth=self.stealth_mode) # set the driver configurations
+
+        task.start_driver(config) # start up the driver
+
+        complete = task.run() # run the crawling prcoedure, returns true if everything completes without a problem
+
+        lock.acquire()
+        if complete:
+            print(f"Task {local_task_count} -- {task.name} -- Complete")
+        else:
+            print(f" Something went wrong with {task.name}")
+        lock.release()
+
 
 
 
